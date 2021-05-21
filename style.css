@@ -1,0 +1,536 @@
+body,h1,h2,h3,h4,h5,h6,p{
+    font-family: 'Work Sans', sans-serif;
+}
+img{
+    max-width: 100%;
+}
+.bg-fixt-color{
+    background-color: #f7f9ff;
+}
+/* header-part */
+.header-part .container p {
+	color: black;
+	font-size: 25px;
+	font-weight: 500;
+	transition: .4s;
+	position: relative;
+	top: 9px;
+}
+.header-part{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+    background: #fff;
+}
+.header-part .container p:hover{
+    color: #cccccc;
+}
+.container .logo-div5 i {
+	position: relative;
+	top: 2px;
+}
+.container .header-img img {
+	color: #fff;
+	width: 45px;
+	height: 44px;
+	font-size: 28px;
+	margin-right: 30px;
+}
+.container .header-menu3 {
+	margin-left: 95px;
+}
+.container .header-menu3 li a {
+	color: black;
+    transition: .4s;
+}
+.container .header-menu3 li:hover > a {
+	color: #6278df;
+}
+.header-button a {
+	padding: 8px 30px;
+	font-size: 16px;
+	border: 2px solid #6278df;
+	border-radius: 6px;
+	color: #6278df;
+	letter-spacing: -1px;
+}
+.header-button a:hover {
+	color: #ffffff;
+	background-color: #6278df;
+	border-color: #6278df;
+	box-shadow: 3px 3px 27px -3px #6278df;
+}
+
+/* banner-section */
+
+.banner-section {
+	background: url(https://i.ibb.co/r0JphkC/mbr-10.jpg) no-repeat center center;
+	padding: 150px 0;
+	position: relative;
+	z-index: 1;
+}
+.banner-section::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.438);
+    z-index: -1;
+}
+.banner-text-div h4 {
+	color: #fff;
+	font-weight: 300;
+	font-size: 25px;
+}
+.banner-text-div h2 {
+	font-size: 44px;
+	color: #fff;
+	margin: 45px 0;
+}
+.header-button-email {
+	width: 700px;
+}
+.banner-text-div input {
+	padding: 17px 23px;
+}
+.banner-text-div input:focus{
+    border-color: #6278df;
+    box-shadow: 3px 3px 27px -3px #6278df;
+}
+.banner-text-div a {
+	padding: 16px 84px;
+	border: 2px solid transparent;
+	transition: .4s;
+}
+.banner-text-div a:hover {
+	background-color: white;
+	color: #6278df;
+	box-shadow: 3px 3px 27px -3px #6278df;
+	border: 2px solid #6278df;
+}
+
+/* skill-section */
+
+.skill-section h1 {
+	font-size: 54px;
+	color: black;
+	margin: 22px 0;
+}
+.skill-section h4 {
+	color: #767676;
+	font-size: 20px;
+	font-weight: 400;
+}
+
+/* activity-part */
+
+.activity-part .activity-text {
+	margin-top: 165px;
+}
+.activity-part .activity-text h1 {
+	font-size: 45px;
+	color: black;
+}
+.activity-part .activity-text p {
+	font-size: 20px;
+	color: black;
+	font-weight: 400;
+}
+.activity-part .activity-img img {
+	padding: 10px;
+}
+
+/* about-section  */
+
+.about-section {
+	margin-bottom: 80px;
+	margin-top: 40px;
+}
+.about-header-text h1 {
+	font-size: 44px;
+	color: black;
+	font-weight: 400;
+	margin-bottom: 33px;
+}
+.about-header-text p {
+	color: #767676;
+	font-size: 25px;
+	margin-bottom: 75px;
+}
+.about-bottom-items {
+	height: 250px;
+	box-shadow: 2.5px 4.33px 30px 0 rgba(64,87,191,0.1);
+	transition: .3s;
+}
+.about-bottom-items:hover {
+	box-shadow: 2.5px 4.33px 30px 0 rgba(64,87,191,0.2);
+}
+.about-bottom-img {
+	width: 40%;
+	overflow: hidden;
+	border-radius: 5px 0 0 5px;
+}
+.about-bottom-text {
+	width: 60%;
+	padding: 22px;
+}
+.about-bottom-img img {
+	height: 100%;
+	width: auto !important;
+	max-width: inherit;
+	position: relative;
+	left: -102px;
+}
+.about-bottom-text h4 {
+	font-size: 21px;
+	color: black;
+	font-weight: 500;
+	margin: 18px 0;
+}
+.about-bottom-text p {
+	color: #767676;
+	font-weight: 300;
+	font-size: 16px;
+}
+.img-22 img {
+	left: -35px;
+}
+.img-33 img {
+	left: -2px;
+}
+.img-55 img {
+	left: -37px;
+}
+
+
+/* application-section */
+
+
+.application-header-text h2 {
+	font-size: 45px;
+	font-weight: 400;
+	color: black;
+	margin-bottom: 64px;
+}
+.application-items a{
+	position: relative;
+	display: block;
+}
+.application-items a::after{
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 255, 0.521);
+	opacity: 0;
+	visibility: hidden;
+	transition: .4s;
+}
+.application-items:hover a::after{
+	background-color: rgba(0, 0, 255, 0.521);
+	opacity: 1;
+	visibility: visible;
+}
+
+
+/* using-section */
+
+
+.using-text h1 {
+	font-size: 55px;
+	color: black;
+	font-weight: 400;
+	margin-top: 65px;
+}
+.using-text p {
+	color: #767676;
+	font-size: 25px;
+	font-weight: 300;
+	margin: 20px 0;
+}
+.ulli-div {
+	box-shadow: 2.5px 4.33px 30px 0 rgba(64,87,191,0.1);
+	border-radius: 6px;
+}
+.using-section .ulli-div .card {
+	padding: 25px;
+	border: none;
+	border-radius: 6px;
+}
+.using-section .ulli-div .card-body h2 {
+	font-size: 42px;
+	color: black;
+}
+.using-section .ulli-div .card-body p {
+	color: #767676;
+	font-size: 21px;
+	font-weight: 300;
+	margin-top: 21px;
+}
+.using-section .ulli-div .card-body ul{
+	list-style: none;
+}
+.using-section .ulli-div .card-body ul li {
+	margin: 30px 0px;
+	font-size: 20px;
+	color: #767676;
+	font-weight: 300;
+}
+.using-section .ulli-div .card-body ul li span {
+	color: #6278df;
+	font-size: 25px;
+	margin-right: 14px;
+}
+.using-section .ulli-div .card .card-button {
+	margin-bottom: 36px;
+}
+.using-section .ulli-div .card .card-button a {
+	padding: 14px 30px;
+	font-size: 19px;
+	box-shadow: 2.5px 4.33px 30px 0 rgba(64,87,191,0.2);
+	border: none;
+	transition: .4s;
+	color: #6278df;
+}
+.using-section .ulli-div .card:hover .card-button a {
+	background-color: #6278df;
+	color: #fff;
+}
+.using-section .ulli-div .card .card-button a:hover{
+	background-color: black;
+	color: #fff;
+	box-shadow: none;
+}
+
+/* users-section */
+
+.users-text h6 {
+	color: #767676;
+	font-size: 25px;
+	font-weight: 300;
+}
+.users-text h1 {
+	font-size: 45px;
+	color: black;
+	font-weight: 400;
+	margin-top: 22px;
+}
+.users-text span i {
+	font-size: 65px;
+	color: #cccccc59;
+	margin-top: -6px;
+}
+.users-text .users-text-div2 {
+	width: 750px;
+}
+.users-text .users-text-div2 p {
+	color: #767676;
+	font-size: 21px;
+	font-weight: 300;
+	margin-top: 14px;
+	margin-bottom: 40px;
+}
+.users-imgtext {
+	width: 200px;
+}
+.users-imgtext img {
+	width: 65px;
+	height: auto;
+	margin-right: 16px;
+	margin-top: -10px;
+}
+.users-imgtext .users-imgtext55 h4 {
+	font-size: 20px;
+	color: black;
+}
+.users-imgtext .users-imgtext55 h6 {
+	color: #767676;
+	font-weight: 400;
+}
+
+/* History-section */
+
+.history-header-text h1 {
+	font-size: 44px;
+	color: black;
+	font-weight: 400;
+	margin-top: 84px;
+}
+.history-text66 p {
+	font-size: 20px;
+	margin-top: 32px;
+	margin-bottom: 95px;
+}
+.history-section .card {
+	box-shadow: 2.5px 4.33px 30px 0 rgba(64,87,191,0.1);
+	border: none;
+	padding: 20px;
+	transition: .4s;
+}
+.history-section .card:hover {
+    box-shadow: 2.5px 4.33px 30px 0 rgba(64,87,191,0.2);
+}
+.history-section .card img {
+	width: 123px;
+	margin-top: -90px;
+	box-shadow: 2.5px 4.33px 30px 0 rgba(64,87,191,0.2);
+	margin-left: -5px;
+}
+.history-section .card .card-body h3 {
+	font-size: 20px;
+	color: black;
+	margin: 15px 0;
+}
+.history-section .card .card-body h5 {
+	font-size: 20px;
+	font-weight: 400;
+}
+.history-section .card .card-body p {
+	color: #767676;
+	font-size: 15px;
+	font-weight: 300;
+	margin: 20px 0;
+}
+.history-section .card .card-button {
+	margin-bottom: -25px;
+}
+.history-section .card .card-body .card-button a {
+	box-shadow: 2.5px 4.33px 30px 0 rgba(64,87,191,0.2);
+	border: none;
+	color: #465052;
+	padding: 10px 15px;
+	background-color: #fff;
+	margin-bottom: 24px;
+	margin-top: 6px;
+}
+.history-section .card .card-body .card-button a:hover{
+	background-color: #465052;
+	color: #fff;
+}
+
+/* contact-section */
+
+.contact-header-text p {
+	color: #767676;
+	font-size: 20px;
+	font-weight: 300;
+}
+.contact-header-text h2 {
+	font-size: 43px;
+	font-weight: 400;
+	color: black;
+	padding-bottom: 68px;
+}
+.contact-section .card{
+	box-shadow: 2.5px 4.33px 30px 0 rgba(64,87,191,0.1);
+	border: none;
+	padding: 30px 30px;
+}
+.contact-section .card .card-body h3 {
+	font-size: 23px;
+	margin-bottom: 31px;
+}
+.contact-section .card .card-body textarea {
+	box-shadow: 2.5px 4.33px 30px 0 rgba(64,87,191,0.1);
+	font-size: 18px;
+	padding: 13px 18px;
+	color: #7676769f;
+}
+.contact-section .card .card-body textarea:focus{
+	border-color: #6278df;
+	box-shadow: 3px 3px 27px -3px #6278df;
+}
+.contact-section .card .card-body input {
+	padding: 15px 19px;
+	margin-bottom: 21px;
+	box-shadow: 2.5px 4.33px 30px 0 rgba(64,87,191,0.1);
+}
+.contact-section .card .card-body input:focus{
+	border-color: #6278df;
+	box-shadow: 3px 3px 27px -3px #6278df;
+}
+.contact-section .card .card-body .placeholder{
+	color: #7676769f;
+
+}
+.contact-section .card .card-button{
+	margin-bottom: 6px;
+}
+.contact-section .card .card-button a {
+	padding: 18px 36px;
+	background-color: #6278df;
+	border: 2px solid transparent;
+	border-radius: 8px;
+	margin-top: 10px;
+	margin-bottom: 15px;
+}
+.contact-section .card .card-button a:hover {
+	background-color: white;
+	color: #6278df;
+	border-color: #6278df;
+	box-shadow: 3px 3px 27px -3px #6278df;
+}
+
+/* app-section */
+
+.app-section .app-text-button {
+	margin: 70px auto;
+	width: 650px;
+}
+.app-section .app-text-button p {
+	font-size: 25px;
+	color: #767676;
+	font-weight: 300;
+}
+.app-section .app-text-button h2 {
+	font-size: 46px;
+	font-weight: 400;
+	color: black;
+}
+.app-section .app-text-button .app-button a {
+	padding: 15px 40px;
+	color: #5ba533;
+	border: 2px solid #5ba533;
+}
+.app-section .app-text-button .app-button a:hover{
+	background-color: #5ba533;
+	color: #fff;
+	box-shadow: 3px 3px 27px -3px #5ba533;
+}
+
+.app-section .app-text-button .app-button77 a {
+	padding: 15px 40px;
+	background-color: #5ba533;
+	box-shadow: 3px 3px 27px -3px #5ba533;
+	border: none;
+	border: 2px solid transparent;
+}
+.app-section .app-text-button .app-button77 a:hover{
+	background-color: black;
+	box-shadow: none;
+	border: 2px solid black;
+}
+
+/* footer-section */
+
+.footer-section .footer-text h3 {
+	font-size: 20px;
+	padding: 20px 0;
+	position: relative;
+	top: 7px;
+	color: black;
+}
+.footer-section .footer-text a {
+	text-decoration: none;
+	color: #767676;
+}
+.footer-section .footer-text a:hover {
+	color: black;
+}
+
